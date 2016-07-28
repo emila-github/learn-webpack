@@ -1,0 +1,23 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "description": "$ npm install webpack -g\r ## 使用webpack ##\r \t` \t$ npm init  # 会自动生成一个package.json文件 \t$ npm install webpack --save-dev #将webpack增加package.json文件中`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emila-github/learn-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emila-github/learn-webpack/issues"
+  },
+  "homepage": "https://github.com/emila-github/learn-webpack#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
