@@ -163,7 +163,12 @@ document.<span class="hljs-keyword">write</span>(<span class="hljs-keyword">requ
 <p><strong>发布服务器</strong></p>
 <ol>
 <li>安装服务器<pre class="hljs sql"><code class="sql">$ npm <span class="hljs-operator"><span class="hljs-keyword">install</span> webpack-dev-<span class="hljs-keyword">server</span> -<span class="hljs-keyword">g</span>
-$ webpack-dev-<span class="hljs-keyword">server</span> <span class="hljs-comment">--progress --colors</span></span></code></pre>
+$ webpack-dev-<span class="hljs-keyword">server</span> <span class="hljs-comment">--progress --colors</span></span></code>
+//  webpack-dev-server --inline --hot --host 0.0.0.0 --port 1024 --history-api-fallback
+</pre>
+
+
+
 </li>
 <li>服务器可以自动生成和刷新，修改代码保存后自动更新画面<pre class="hljs objectivec"><code class="objectivec">http:<span class="hljs-comment">//localhost:8080/webpack-dev-server/bundle</span></code></pre>
 </li>
